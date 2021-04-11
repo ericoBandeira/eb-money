@@ -8,9 +8,9 @@ import { useContext } from "react";
 
 export function Summary(){
 
-    const data = useContext(TransactionContext);
-
+    const {transactions} = useContext(TransactionContext);
     return(
+
         <Container>
             <div>
                 <header>
